@@ -1,8 +1,5 @@
 import os
 from flask import Flask, render_template, url_for
-from dotenv import load_dotenv
-
-load_dotenv()
 
 FLASK_KEY = os.environ.get("SECRET_KEY")
 
